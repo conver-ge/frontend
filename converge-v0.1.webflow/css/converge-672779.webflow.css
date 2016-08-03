@@ -1,0 +1,356 @@
+.leftnavigationbar {
+  width: 25%;
+  height: 603px;
+  background-color: #26272a;
+}
+
+.container {
+  height: 603px;
+  background-color: #9cdc1f;
+  background-image: url('../images/homeBackground3.jpg');
+  background-position: 0px 0px;
+  background-size: 1070px;
+  text-align: center;
+}
+
+.loginlabel {
+  position: absolute;
+  left: 12.5%;
+  top: 10%;
+  right: 12.5%;
+  width: 75%;
+  float: none;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.logintext {
+  position: absolute;
+  left: 12.5%;
+  top: 15%;
+  right: 12.5%;
+  width: 75%;
+  float: none;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+
+.logindiv {
+  position: static;
+  height: 400px;
+}
+
+.loginform {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  right: 5%;
+}
+
+.usernameinputfield {
+  position: absolute;
+  left: 7.5%;
+  right: 7.5%;
+  width: 85%;
+  font-family: Oswald, sans-serif;
+}
+
+.passwordinput {
+  position: absolute;
+  left: 7.5%;
+  right: 7.5%;
+  width: 85%;
+  margin-top: 20%;
+  font-family: Oswald, sans-serif;
+}
+
+.passwordinputfield {
+  position: absolute;
+  left: 12.5%;
+  top: 100%;
+  right: 12.5%;
+  width: 75%;
+}
+
+.loginbutton {
+  position: absolute;
+  left: 7.5%;
+  margin-top: 47%;
+  border-radius: 15%;
+  background-color: #9cdc1f;
+  font-family: Oswald, sans-serif;
+  color: #000;
+}
+
+.remembermecheckbox {
+  position: absolute;
+  left: 8.5%;
+  right: 7.5%;
+  width: 75%;
+  margin-top: 20%;
+  padding-top: 1px;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+}
+
+.rememberme {
+  margin-top: 25%;
+}
+
+.forgotpassword {
+  position: absolute;
+  right: 7.5%;
+  margin-top: 36%;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+}
+
+.notyetregisteredtext {
+  position: absolute;
+  left: 7.5%;
+  right: 7.5%;
+  margin-top: 68%;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+  font-size: 23px;
+}
+
+.registerbutton {
+  position: absolute;
+  left: 25%;
+  right: 10%;
+  margin-top: 80%;
+  border-radius: 10%;
+  background-color: #9cdc1f;
+  font-family: Oswald, sans-serif;
+  color: #000;
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.welcomemessage {
+  position: absolute;
+  left: 12.5%;
+  top: 30%;
+  right: 12.5%;
+  width: 75%;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.welcometext {
+  position: absolute;
+  left: 12.5%;
+  top: 40%;
+  right: 12.5%;
+  width: 75%;
+  opacity: 1;
+  font-family: Oswald, sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.startcontributingbutton {
+  position: absolute;
+  left: 35%;
+  top: 55%;
+  right: 35%;
+  border-radius: 8%;
+  background-color: #9cdc1f;
+  font-family: Oswald, sans-serif;
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+}
+
+.registermodal {
+  position: fixed;
+  left: 8%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 99999;
+  display: block;
+  width: 50%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 30%;
+  background-color: #9cdc1f;
+  text-align: center;
+}
+
+.registermodalcontainer {
+  position: fixed;
+  z-index: 99999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.closebutton {
+  position: absolute;
+  top: -5%;
+  right: -5%;
+  font-family: Oswald, sans-serif;
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+.registerusernametextfield {
+  position: absolute;
+  left: -55%;
+  top: 2%;
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.registerpasswordtextfield {
+  position: absolute;
+  left: -55%;
+  top: 19%;
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.registerusernametf {
+  position: absolute;
+  left: -55%;
+  top: 8%;
+  width: 100%;
+  font-family: Oswald, sans-serif;
+}
+
+.registerpasswordtf {
+  position: absolute;
+  left: -55%;
+  top: 25%;
+  width: 100%;
+  font-family: Oswald, sans-serif;
+}
+
+.registerformbutton {
+  position: absolute;
+  top: 80%;
+}
+
+.confirmpassword {
+  position: absolute;
+  left: -55%;
+  top: 37%;
+  width: 100%;
+  font-family: Oswald, sans-serif;
+}
+
+.confirmpasswordlabel {
+  position: absolute;
+  left: 3%;
+  top: 32%;
+  width: 55%;
+  font-family: Oswald, sans-serif;
+  color: #000;
+}
+
+.registeremailaddresslabel {
+  position: absolute;
+  left: -55%;
+  top: 48%;
+  font-family: Oswald, sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.registeremailaddresstf {
+  position: absolute;
+  left: -55%;
+  top: 54%;
+  width: 100%;
+  font-family: Oswald, sans-serif;
+}
+
+html.w-mod-js *[data-ix="registermodalinteraction"] {
+  display: none;
+  opacity: 0.16;
+  -webkit-transform: scale(1.1, 1);
+  -ms-transform: scale(1.1, 1);
+  transform: scale(1.1, 1);
+}
+
+html.w-mod-js *[data-ix="register"] {
+  opacity: 1;
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+@media (max-width: 991px) {
+  .leftnavigationbar {
+    position: relative;
+  }
+  .logintext {
+    font-size: 10px;
+  }
+  .passwordinput {
+    margin-top: 25%;
+  }
+  .loginbutton {
+    margin-top: 80%;
+  }
+  .remembermecheckbox {
+    position: absolute;
+    left: 7.5%;
+    margin-top: 30%;
+    font-size: 12px;
+    text-indent: 10px;
+  }
+  .rememberme {
+    position: absolute;
+    margin-top: 33%;
+  }
+  .forgotpassword {
+    left: 7.5%;
+    margin-top: 65%;
+    font-size: 12px;
+  }
+  .notyetregisteredtext {
+    margin-top: 110%;
+    font-size: 16px;
+  }
+  .registerbutton {
+    left: 18%;
+    margin-top: 125%;
+    font-size: 18px;
+  }
+  .welcomemessage {
+    font-size: 35px;
+  }
+  .welcometext {
+    font-size: 14px;
+  }
+  .startcontributingbutton {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 479px) {
+  .welcomemessage {
+    font-size: 25px;
+  }
+  .welcometext {
+    top: 38%;
+    font-size: 11px;
+  }
+  .startcontributingbutton {
+    left: 25%;
+    right: 25%;
+    font-size: 12px;
+  }
+}
